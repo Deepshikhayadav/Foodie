@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="32dp"
+    android:id="@+id/bottomSheet"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="16dp"
+    android:background="@drawable/bottom_sheet_back"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Your Order"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/simage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/favorite"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="10dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+>
+    <TextView
+        android:id="@+id/stitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Text"
+        android:padding="5dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/sprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="$57"
+        android:textColor="@color/order"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/decrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="-"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/text"/>
+        <EditText
+            android:id="@+id/sedit"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:gravity="center_horizontal"
+            android:textColor="@color/order"/>
+        <TextView
+            android:id="@+id/increment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="+"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/text"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:padding="10dp"
+    android:background="@color/colorAccent"/>
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="3"
+           android:textStyle="bold"
+           android:text="Total:"
+           android:textSize="22sp"
+           android:gravity="end"
+           android:textColor="@color/text"
+           android:layout_gravity="end"
+           android:padding="5dp"/>
+       <TextView
+           android:id="@+id/cost"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:textStyle="bold"
+           android:text="pay"
+           android:textSize="22sp"
+           android:layout_gravity="end"
+           android:textColor="@color/text"
+           android:padding="5dp"/>
+   </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to favorite"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:textColor="@color/order"
+        android:drawablePadding="12dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/favorite"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Product via"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:textColor="@color/order"
+        android:drawablePadding="12dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_baseline_share_24"/>
+       <LinearLayout
+           android:id="@+id/but"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+
+           <Button
+               android:id="@+id/cancel"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Cancel"
+               android:textColor="@color/text"
+               android:layout_margin="10dp"
+               android:background="@drawable/button_back"/>
+
+           <Button
+               android:id="@+id/addcart"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Add to cart"
+               android:textColor="@color/text"
+               android:background="@color/colorAccent"
+               android:layout_margin="10dp"/>
+       </LinearLayout>
+        </LinearLayout>
+

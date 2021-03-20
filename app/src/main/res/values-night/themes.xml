@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#2B2928</color>
+    <color name="colorPrimaryDark">#1A1919</color>
+    <color name="colorAccent">#B56F4D</color>
+    <color name="text_color">#F4C94F46</color>
+    <color name="desc_color">#C8E5DDDD</color>
+    <color name="order">#7BE1E0E0</color>
+    <color name="white">#F2212122</color>
+    <color name="card_white">#E4575555</color>
+    <color name="text">#F9F5F5</color>
+    <color name="Bottom_sheet">#403B3B</color>
+</resources>

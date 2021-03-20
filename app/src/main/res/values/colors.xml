@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C05E17</color>
+    <color name="colorPrimaryDark">#AF5205</color>
+    <color name="colorAccent">#F98E29</color>
+    <color name="text_color">#F4E13105</color>
+    <color name="desc_color">#61040303</color>
+    <color name="order">#EC070606</color>
+    <color name="white">#ffffff</color>
+    <color name="card_white">#E4CDC5C5</color>
+    <color name="text">#151212</color>
+    <color name="Bottom_sheet">#ECEBEB</color>
+</resources>
